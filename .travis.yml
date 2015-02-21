@@ -1,3 +1,5 @@
 language: android
 script:
-  - ./gradlew assembleDebug uploadDeployGateDebug
+  - ./gradlew assembleDebug
+after_script:
+  - ./gradlew uploadDeployGateDebug
