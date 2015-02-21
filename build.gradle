@@ -6,10 +6,18 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:1.1.0'
+        classpath 'com.deploygate:gradle:0.6.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+}
+
+apply plugin: 'deploygate'
+
+deploygate {
+    userName = "$System.env.DEPLOYGATE_USER"
+    token = "$System.env.DEPLOYGATE_TOKEN"
 }
 
 allprojects {
