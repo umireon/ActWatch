@@ -4,3 +4,5 @@ android:
     - sys-img-x86-android-21
 script:
   - ./gradlew assembleDebug
+after_script:
+  - ./gradlew uploadDeployGateDebug
