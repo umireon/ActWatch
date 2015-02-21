@@ -1,4 +1,4 @@
-package umireon.github.com.actwatch;
+package umireon.github.com.actowatch;
 
 import android.app.Activity;
 import android.os.Bundle;

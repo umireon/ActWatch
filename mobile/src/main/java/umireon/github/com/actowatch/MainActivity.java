@@ -1,4 +1,4 @@
-package umireon.github.com.actwatch;
+package umireon.github.com.actowatch;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;

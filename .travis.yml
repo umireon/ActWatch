@@ -1,5 +1,0 @@
-language: android
-script:
-  - ./gradlew assembleDebug
-after_script:
-  - ./gradlew uploadDeployGateDebug

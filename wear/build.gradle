@@ -6,7 +6,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "umireon.github.com.actwatch"
+        applicationId "umireon.github.com.actowatch"
         minSdkVersion 20
         targetSdkVersion 21
         versionCode 1
