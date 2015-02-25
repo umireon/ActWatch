@@ -1,0 +1,28 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="endpoint"
+        android:title="Endpoint"
+        android:defaultValue="https://actowatch.herokuapp.com/lifelog/activities"
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="email"
+        android:title="Email"
+        android:defaultValue=""
+        android:selectAllOnFocus="true"
+        android:inputType="text"
+        android:singleLine="true"
+        android:maxLines="1" />
+
+    <EditTextPreference
+        android:key="password"
+        android:title="Password"
+        android:defaultValue=""
+        android:selectAllOnFocus="true"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:maxLines="1" />
+</PreferenceScreen>
